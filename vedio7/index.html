@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Froms-Lets lean it</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="post"></form>
+    <h1>form for sigma web dev course - TA</h1>
+
+    <div>
+        <label for="username">Enter your username :</label>
+        <!-- lable the input like enter your username -->
+        <input type="text" id="username" name="username" placeholder="Enter your username" autofocus>
+    </div> 
+    <!-- div se blocks next line mai arrange ho jate hai -->
+
+    <div>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+    </div>
+
+    <div>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        <label for="subscribe">wantes to be a part of sigma web dev course as TA</label>
+    </div>
+
+    <div>
+        <label for="comment">enter your comment :</label>
+        <br>
+        <!-- br tag used for line break; -->
+        <textarea name="comment" rows="4" cols="50">
+        </textarea>
+    </div>
+        
+    <div>
+        <label for="type">type of job you want</label>
+        <br>
+        <select name="type of job">
+            <option value="online part time">online part time</option>
+            <option value="online full time">online full time</option>
+            <option value="offline part time ">offline part time </option>
+            <option value="offline full time">offline full time</option>
+        </select>
+    </div>
+</body>
+</html>
