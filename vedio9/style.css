@@ -1,0 +1,10 @@
+.red{
+    color: red;
+}
+/* . target the class element */
+.bg-yellow{
+    background-color: beige;
+}
+#seconddiv{
+    background-color: bisque;
+}
